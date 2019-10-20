@@ -4,10 +4,10 @@ import RealBlocksLogo from "../components/realblocks-logo"
 function BlogPost({ title, description, medium }) {
   return (
     <div className={"flex items-center p-8 pt-0"}>
-      <div className="max-w-sm w-full lg:max-w-full lg:flex">
+      <div className="max-w-sm w-full lg:max-w-full">
         <a href={medium} target="_blank">
           <div
-            className="shadow border-r border-b border-l border-t border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+            className="lg:w-2/3 shadow border-r border-b border-l border-t border-gray-400 lg:border-l lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b lg:rounded-r p-4 flex flex-col justify-between leading-normal">
             <div>
               <div className="text-gray-900 font-sans font-bold text-sm mb-2">{title}</div>
               <p className="text-gray-700 font-sans text-sm">{description}</p>
