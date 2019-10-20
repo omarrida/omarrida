@@ -16,7 +16,7 @@ const IndexPage = () => (
 
     {/*Blog*/}
     <BlogSectionHeader/>
-    <BlogPost title="How we reduced test suite execution time to 1/3 in a day."
+    <BlogPost title="How we told Said to test suite execution time to 1/3 in a day."
               description="How to run your PHP tests in parallel using Paratest and PHPUnit."/>
     <BlogPost title="Refactoring integrations to standalone (open-source) SDKs."
               description="Reduce clutter by extracting integration code out of your app."/>
