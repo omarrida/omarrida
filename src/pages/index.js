@@ -16,10 +16,14 @@ const IndexPage = () => (
 
     {/*Blog*/}
     <BlogSectionHeader/>
-    <BlogPost title="How we told Said to test suite execution time to 1/3 in a day."
-              description="How to run your PHP tests in parallel using Paratest and PHPUnit."/>
+    <BlogPost title="How we cut test suite execution time to 1/3 in a day."
+              description="How to run your PHP tests in parallel using Paratest and PHPUnit."
+              medium="https://medium.com/realblocks-blog/parallel-testing-for-laravel-how-we-cut-test-suite-execution-time-to-1-3-in-one-day-544e458f48ad"
+    />
     <BlogPost title="Refactoring integrations to standalone (open-source) SDKs."
-              description="Reduce clutter by extracting integration code out of your app."/>
+              description="Reduce clutter by extracting integration code out of your app."
+              medium="https://medium.com/realblocks-blog/parallel-testing-for-laravel-how-we-cut-test-suite-execution-time-to-1-3-in-one-day-544e458f48ad"
+    />
 
   </Layout>
 )
