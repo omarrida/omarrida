@@ -9,7 +9,10 @@ import BlogPost from "../components/blog-post"
 const IndexPage = () => (
   <Layout>
     {/*Meta*/}
-    <SEO title="Omar Rida - In love with software and startups." />
+    <SEO
+      title="Omar Rida"
+      description="Senior software engineer and startup founder. Currently based in NYC and building solutions for private real estate funds."
+    />
 
     {/*Personal Info*/}
     <Bio />
